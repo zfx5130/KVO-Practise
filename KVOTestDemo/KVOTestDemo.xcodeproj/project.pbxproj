@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		D706E4AB1D069DDE009AFF06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D706E4AA1D069DDE009AFF06 /* main.m */; };
 		D706E4AE1D069DDE009AFF06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D706E4AD1D069DDE009AFF06 /* AppDelegate.m */; };
-		D706E4B11D069DDE009AFF06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D706E4B01D069DDE009AFF06 /* ViewController.m */; };
 		D706E4B41D069DDE009AFF06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D706E4B21D069DDE009AFF06 /* Main.storyboard */; };
 		D706E4B61D069DDE009AFF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D706E4B51D069DDE009AFF06 /* Assets.xcassets */; };
 		D706E4B91D069DDE009AFF06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D706E4B71D069DDE009AFF06 /* LaunchScreen.storyboard */; };
 		D706E4C41D069DDE009AFF06 /* KVOTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D706E4C31D069DDE009AFF06 /* KVOTestDemoTests.m */; };
 		D706E4CF1D069DDE009AFF06 /* KVOTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D706E4CE1D069DDE009AFF06 /* KVOTestDemoUITests.m */; };
+		D706E7851D06AAAE009AFF06 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = D706E7801D06AAAE009AFF06 /* Account.m */; };
+		D706E7861D06AAAE009AFF06 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D706E7821D06AAAE009AFF06 /* Person.m */; };
+		D706E7871D06AAAE009AFF06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D706E7841D06AAAE009AFF06 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		D706E4AA1D069DDE009AFF06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D706E4AC1D069DDE009AFF06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D706E4AD1D069DDE009AFF06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D706E4AF1D069DDE009AFF06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D706E4B01D069DDE009AFF06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D706E4B31D069DDE009AFF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D706E4B51D069DDE009AFF06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D706E4B81D069DDE009AFF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		D706E4CA1D069DDE009AFF06 /* KVOTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D706E4CE1D069DDE009AFF06 /* KVOTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTestDemoUITests.m; sourceTree = "<group>"; };
 		D706E4D01D069DDE009AFF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D706E77F1D06AAAE009AFF06 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		D706E7801D06AAAE009AFF06 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		D706E7811D06AAAE009AFF06 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D706E7821D06AAAE009AFF06 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D706E7831D06AAAE009AFF06 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D706E7841D06AAAE009AFF06 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,9 @@
 		D706E4A81D069DDE009AFF06 /* KVOTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D706E77E1D06AAAE009AFF06 /* KVOPractiseOne */,
 				D706E4AC1D069DDE009AFF06 /* AppDelegate.h */,
 				D706E4AD1D069DDE009AFF06 /* AppDelegate.m */,
-				D706E4AF1D069DDE009AFF06 /* ViewController.h */,
-				D706E4B01D069DDE009AFF06 /* ViewController.m */,
 				D706E4B21D069DDE009AFF06 /* Main.storyboard */,
 				D706E4B51D069DDE009AFF06 /* Assets.xcassets */,
 				D706E4B71D069DDE009AFF06 /* LaunchScreen.storyboard */,
@@ -138,6 +143,19 @@
 				D706E4D01D069DDE009AFF06 /* Info.plist */,
 			);
 			path = KVOTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		D706E77E1D06AAAE009AFF06 /* KVOPractiseOne */ = {
+			isa = PBXGroup;
+			children = (
+				D706E77F1D06AAAE009AFF06 /* Account.h */,
+				D706E7801D06AAAE009AFF06 /* Account.m */,
+				D706E7811D06AAAE009AFF06 /* Person.h */,
+				D706E7821D06AAAE009AFF06 /* Person.m */,
+				D706E7831D06AAAE009AFF06 /* ViewController.h */,
+				D706E7841D06AAAE009AFF06 /* ViewController.m */,
+			);
+			path = KVOPractiseOne;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D706E4B11D069DDE009AFF06 /* ViewController.m in Sources */,
+				D706E7851D06AAAE009AFF06 /* Account.m in Sources */,
 				D706E4AE1D069DDE009AFF06 /* AppDelegate.m in Sources */,
+				D706E7861D06AAAE009AFF06 /* Person.m in Sources */,
 				D706E4AB1D069DDE009AFF06 /* main.m in Sources */,
+				D706E7871D06AAAE009AFF06 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +435,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/Alamofire/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/Alamofire/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/Alamofire/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/Alamofire/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/ObjectMapper/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/ObjectMapper/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/ObjectMapper/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/ObjectMapper/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = KVOTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zfx5130.KVOTestDemo;
@@ -426,6 +461,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/Alamofire/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/Alamofire/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/Alamofire/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/Alamofire/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/ObjectMapper/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/ObjectMapper/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/ObjectMapper/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/KVOTestDemo/RealmTestDemo/Carthage/Checkouts/ObjectMapper/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = KVOTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zfx5130.KVOTestDemo;
